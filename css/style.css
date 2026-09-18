@@ -1108,45 +1108,9 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .footer {
-  }
-
-  .container {
-  }
-
-  .footer__wrapper {
-  }
-
   .footer__top {
     flex-direction: column;
     gap: 40px;
-  }
-
-  .footer__brand {
-  }
-
-  .footer__logo {
-  }
-
-  .footer__desc {
-  }
-
-  .footer__social-list {
-  }
-
-  .footer__social-item {
-  }
-
-  .footer__nav-group {
-  }
-
-  .footer__nav-title {
-  }
-
-  .footer__nav-list {
-  }
-
-  .footer__nav-item {
   }
 
   .footer__bottom {
@@ -1154,17 +1118,8 @@
     gap: 40px;
   }
 
-  .footer__copyright {
-  }
-
   .footer__payments {
     order: -1;
-  }
-
-  .shop {
-  }
-
-  .container {
   }
 
   .shop__wrapper {
@@ -1196,49 +1151,10 @@
     gap: 8px 24px;
   }
 
-  .filter__title {
-  }
-
-  .filter__list {
-  }
-
-  .filter__item {
-  }
-
-  .filter__content {
-  }
-
-  .filter__name {
-  }
-
-  .filter__count {
-  }
-
-  .filter__price-wrapper {
-  }
-
-  .filter__price {
-  }
-
-  .filter__price-info {
-  }
-
-  .button.filter__price-button {
-  }
-
   .filter__brands-wrapper .filter__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 8px 24px;
-  }
-
-  .filter__tags-wrapper {
-  }
-
-  .filter__tags {
-  }
-
-  .filter__tag {
   }
 
   .popular-products-wrapper .popular-products__list {
@@ -1247,123 +1163,12 @@
     gap: 8px 24px;
   }
 
-  .popular-products__title {
-  }
-
-  .popular-products__list {
-  }
-
   .popular-products__item {
     max-width: 310px;
   }
 
-  .popular-products__img {
-  }
-
-  .popular-products__contents {
-  }
-
-  .popular-products__name {
-  }
-
-  .popular-products__value {
-  }
-
-  .shop__content {
-  }
-
-  .shop__toolbar {
-  }
-
-  .shop__result {
-  }
-
-  .shop__sort {
-  }
-
   .shop__list {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .product-card {
-  }
-
-  .product-card__image {
-  }
-
-  .product-card__info {
-  }
-
-  .product-card__info-contents {
-  }
-
-  .product-card__name {
-  }
-
-  .product-card__price {
-  }
-
-  .product-card__favorite {
-  }
-
-  .shop__pagination {
-  }
-
-  .shop__pagination-list {
-  }
-
-  .shop__pagination-item shop__pagination-item--active {
-  }
-
-  .shop__pagination-item {
-  }
-
-  .shop__pagination-next {
-  }
-
-  .shop__pagination-text {
-  }
-
-  .hero hero--about {
-  }
-
-  .container {
-  }
-
-  .hero__wrapper {
-  }
-
-  .hero__content {
-  }
-
-  .hero__heading {
-  }
-
-  .hero__subtitle {
-  }
-
-  .hero__title {
-  }
-
-  .hero__description {
-  }
-
-  .button hero__button {
-  }
-
-  .about-store {
-  }
-
-  .container {
-  }
-
-  .about-store__wrapper {
-  }
-
-  .about-store__heading {
-  }
-
-  .about-store__title {
   }
 
   .about-store__content {
@@ -1371,28 +1176,13 @@
     gap: 30px;
   }
 
-  .about-store__description {
-  }
-
   .about-store__stats {
     justify-content: flex-start;
     gap: 48px;
   }
 
-  .about-store__stat {
-  }
-
-  .about-store__number {
-  }
-
-  .about-store__label {
-  }
-
   .founder {
     padding-block: var(--spacing-md) 0;
-  }
-
-  .container {
   }
 
   .founder__wrapper {
@@ -1404,51 +1194,8 @@
     width: 50%;
   }
 
-  .founder__content {
-  }
-
-  .founder__body {
-  }
-
-  .founder__heading {
-  }
-
-  .founder__name {
-  }
-
-  .founder__role {
-  }
-
-  .founder__desc {
-    /* max-width: 480px; */
-  }
-
-  .founder__sign {
-  }
-
   .team {
     padding-block: 0 var(--spacing-sm);
-  }
-
-  .container {
-  }
-
-  .team__wrapper {
-  }
-
-  .team__title {
-  }
-
-  .team__list {
-  }
-
-  .team__item {
-  }
-
-  .team__img {
-  }
-
-  .team__member {
   }
 
   .team__name {
@@ -1456,59 +1203,9 @@
     text-align: center;
   }
 
-  .team__role {
-  }
-  .testimonials {
-  }
-
-  .container {
-  }
-
   .testimonials__wrapper {
     flex-direction: column;
     gap: 0;
-  }
-
-  .testimonials__review {
-  }
-
-  .testimonials__contents {
-  }
-
-  .testimonials__header {
-  }
-
-  .testimonials__subtitle {
-  }
-
-  .testimonials__title {
-  }
-
-  .testimonials__body {
-  }
-
-  .testimonials__stars {
-  }
-
-  .testimonials__star {
-  }
-
-  .testimonials__desc {
-  }
-
-  .testimonials__reviewer {
-  }
-
-  .testimonials__info {
-  }
-
-  .testimonials__name {
-  }
-
-  .testimonials__role {
-  }
-
-  .testimonials__arrow {
   }
 
   .testimonials__img {
@@ -1524,30 +1221,6 @@
     padding-block: var(--spacing-sm) var(--spacing-lg);
   }
 
-  .container {
-  }
-
-  .video__wrapper {
-  }
-
-  .video__image {
-  }
-
-  .video__play {
-  }
-
-  .instagram {
-  }
-
-  .container {
-  }
-
-  .instagram__wrapper {
-  }
-
-  .instagram__title {
-  }
-
   .instagram__images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1560,72 +1233,16 @@
     justify-content: center;
   }
 
-  .contact {
-  }
-
-  .container {
-  }
-
   .contact__wrapper {
     flex-direction: column;
-  }
-
-  .contact-form {
-  }
-
-  .contact-form__body {
-  }
-
-  .contact-form__row {
-  }
-
-  .contact-form__field {
-  }
-
-  .contact-form__label {
-  }
-
-  .contact-form__input {
-  }
-
-  .contact-form__message {
-  }
-
-  .contact-form__textarea {
-  }
-
-  .button contact-form__button {
   }
 
   .contact__info {
     align-items: center;
     text-align: center;
   }
-
-  .contact__header {
-  }
-
-  .contact__title {
-  }
-
-  .contact__desc {
-  }
-
-  .contact__content {
-  }
-
-  .contact__list {
-  }
-
-  .contact__item {
-  }
-
-  .contact__img {
-  }
-
-  .contact__value {
-  }
-  @media (max-width: 480px) {
+}
+@media (max-width: 480px) {
     .hero--home {
       background-position: calc(100% + 320px) center;
     }
@@ -1757,26 +1374,21 @@
       white-space: normal;
     }
     .categories__title {
-      font-weight: 600;
       font-size: 32px;
     }
     .featured__title {
-      font-weight: 600;
       font-size: 32px;
     }
     .partners__wrapper {
       padding-block: var(--spacing-sm) 0;
     }
     .bestsellers__title {
-      font-weight: 600;
       font-size: 32px;
     }
     .shop-by-pet__title {
-      font-weight: 600;
       font-size: 32px;
     }
     .news__title {
-      font-weight: 600;
       font-size: 32px;
     }
     .badge {
@@ -1823,25 +1435,21 @@
       grid-template-columns: repeat(2, 1fr);
     }
     .about-store__title {
-      font-weight: 600;
       font-size: 32px;
     }
     .about-store__number {
       font-size: 28px;
     }
     .founder__name {
-      font-weight: 600;
       font-size: 32px;
     }
     .team__title {
-      font-weight: 600;
       font-size: 32px;
     }
     .team__member {
       gap: 16px;
     }
     .testimonials__title {
-      font-weight: 600;
       font-size: 32px;
     }
     .testimonials__img {
@@ -1856,11 +1464,9 @@
       gap: 8px;
     }
     .testimonials__name {
-      font-weight: 600;
       font-size: 20px;
     }
     .testimonials__role {
-      font-weight: 600;
       font-size: 14px;
     }
     .video {
@@ -1870,7 +1476,6 @@
       gap: 40px;
     }
     .instagram__title {
-      font-weight: 600;
       font-size: 32px;
     }
     .instagram__images {
@@ -1917,9 +1522,7 @@
       padding-inline: 40px;
     }
     .contact__value {
-      font-weight: 600;
       font-size: 16px;
       text-align: left;
     }
   }
-}
