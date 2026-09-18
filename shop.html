@@ -73,16 +73,25 @@
               />
               <span class="header__logo-name">Pet Shop</span>
             </a>
-            <nav class="header__nav">
+            <button
+              class="header__hamburger"
+              type="button"
+              aria-label="Open menu"
+              aria-expanded="false"
+              aria-controls="header-menu"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <nav class="header__nav" id="header-menu">
               <ul class="header__nav-list">
-                <li class="header__nav-item">
-                  <a href="#">Home</a>
-                </li>
                 <li class="header__nav-item header__nav-item--active">
-                  <a href="#">Shop</a>
+                  <a href="index.html">Home</a>
                 </li>
-                <li class="header__nav-item"><a href="#">About Us</a></li>
-                <li class="header__nav-item"><a href="#">Contact Us</a></li>
+                <li class="header__nav-item"><a href="shop.html">Shop</a></li>
+                <li class="header__nav-item"><a href="about-us.html">About Us</a></li>
+                <li class="header__nav-item"><a href="contact-us.html">Contact Us</a></li>
               </ul>
             </nav>
             <div class="header__actions">
@@ -208,7 +217,21 @@
           <div class="shop__wrapper">
             <!-- 左側：フィルター -->
             <aside class="shop__sidebar">
-              <form class="shop__filters" action="#" method="get">
+              <button
+                class="button shop__filter-button"
+                type="button"
+                aria-expanded="false"
+                aria-controls="shop-filters"
+              >
+                Filter
+              </button>
+
+              <form
+                class="shop__filters"
+                id="shop-filters"
+                action="#"
+                method="get"
+              >
                 <!-- Filter by categories -->
                 <div class="filter__categories-wrapper">
                   <h3 class="filter__title">Filter by categories</h3>

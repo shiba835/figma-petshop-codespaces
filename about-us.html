@@ -73,18 +73,25 @@
               />
               <span class="header__logo-name">Pet Shop</span>
             </a>
-            <nav class="header__nav">
+            <button
+              class="header__hamburger"
+              type="button"
+              aria-label="Open menu"
+              aria-expanded="false"
+              aria-controls="header-menu"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <nav class="header__nav" id="header-menu">
               <ul class="header__nav-list">
-                <li class="header__nav-item">
-                  <a href="#">Home</a>
-                </li>
-                <li class="header__nav-item">
-                  <a href="#">Shop</a>
-                </li>
                 <li class="header__nav-item header__nav-item--active">
-                  <a href="#">About Us</a>
+                  <a href="index.html">Home</a>
                 </li>
-                <li class="header__nav-item"><a href="#">Contact Us</a></li>
+                <li class="header__nav-item"><a href="shop.html">Shop</a></li>
+                <li class="header__nav-item"><a href="about-us.html">About Us</a></li>
+                <li class="header__nav-item"><a href="contact-us.html">Contact Us</a></li>
               </ul>
             </nav>
             <div class="header__actions">
